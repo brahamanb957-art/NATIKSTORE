@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATIK STORE - Meesho Reselling | 8826440957</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
+        
+        /* Header */
+        .header { background: linear-gradient(135deg, #ff6b6b, #ff8e8e); color: white; padding: 1rem 0; position: fixed; width: 100%; z-index: 1000; }
+        .nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .logo { font-size: 1.8rem; font-weight: bold; }
+        .contact { display: flex; align-items: center; gap: 10px; font-size: 1.1rem; }
+        .whatsapp { background: #25D366; color: white; padding: 10px 15px; border-radius: 25px; text-decoration: none; }
+
+        /* Hero */
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23ff6b6b" width="1200" height="600"/><text x="50%" y="50%" font-size="40" fill="white" text-anchor="middle" dy=".3em">NATIK STORE</text></svg>'); 
+                height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; margin-top: 70px; }
+        .hero h1 { font-size: 4rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.3rem; margin-bottom: 2rem; }
+
+        /* Products */
+        .products { padding: 80px 20px; max-width: 1200px; margin: 0 auto; }
+        .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #ff6b6b; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+        
+        .product-card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .product-card:hover { transform: translateY(-10px); }
+        .product-img { height: 250px; background: #f8f9fa; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: #ddd; }
+        .product-info { padding: 1.5rem; }
+        .product-title { font-size: 1.3rem; font-weight: bold; margin-bottom: 0.5rem; }
+        .product-price { font-size: 1.5rem; color: #ff6b6b; font-weight: bold; margin-bottom: 1rem; }
+        .order-btn { width: 100%; background: #25D366; color: white; border: none; padding: 12px; border-radius: 10px; font-size: 1.1rem; cursor: pointer; transition: 0.3s; }
+        .order-btn:hover { background: #128C7E; }
+
+        /* WhatsApp Float */
+        .whatsapp-float { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; 
+                         display: flex; align-items: center; justify-content: center; font-size: 1.5rem; box-shadow: 0 5px 20px rgba(37,211,102,0.4); 
+                         text-decoration: none; z-index: 1000; animation: pulse 2s infinite; }
+        
+        /* Responsive */
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } .nav { flex-direction: column; gap: 10px; } }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="nav">
+            <div class="logo">🔥 NATIK STORE</div>
+            <div class="contact">
+                📞 <strong>8826440957</strong>
+                <a href="https://wa.me/918826440957?text=Hi%20Natik%2C%20main%20aapke%20store%20se%20order%20karna%20chahta%20hu%20%F0%9F%91%8D" 
+                   class="whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div>
+            <h1>🛍️ NATIK STORE</h1>
+            <p>Meesho Reselling | Best Prices | Fast Delivery<br><strong>CALL/WHATSAPP: 8826440957</strong></p>
+            <a href="https://wa.me/918826440957?text=Hi%20Natik%2C%20mujhe%20aapka%20catalog%20bhej%20dijiye%20%F0%9F%93%B7" 
+               style="background: #25D366; color: white; padding: 15px 40px; text-decoration: none; border-radius: 50px; font-size: 1.3rem;" 
+               target="_blank">View Catalog 📦</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2 class="section-title">🔥 HOT DEALS TODAY</h2>
+        <div class="products-grid">
+            <!-- PRODUCT 1 -->
+            <div class="product-card">
+                <div class="product-img">👕</div>
+                <div class="product-info">
+                    <div class="product-title">Cotton T-Shirt</div>
+                    <div class="product-price">₹199 <span style="text-decoration: line-through; color: #999;">₹499</span></div>
+                    <button class="order-btn" onclick="orderNow('Cotton T-Shirt - ₹199')">Order Now</button>
+                </div>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="product-card">
+                <div class="
